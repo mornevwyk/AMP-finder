@@ -31,8 +31,8 @@ def get_data(seq):
 st.title('Antimcirobial Peptide Finder')
 st.markdown("**How to use:** Upload a .fasta file with the protein sequences you would like to screen for antimicrobial activity. The sequences can only contain combinations of the 20 common amino acids.")
 
-rf = load('Models\RF_classifier.joblib')
-gb = load('Models\GB_classifier.joblib')
+rf = load('./Models/RF_classifier.joblib')
+gb = load('./Models/GB_classifier.joblib')
 sequences = []
 
 file_uploader=st.file_uploader(' Please upload a .fasta file ')
