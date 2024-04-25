@@ -24,4 +24,11 @@ All models are trained on the same data containing [active](AMP_sequence/AMP_seq
 
 The RF models were made using scikit-learn with n=500 estimators in each model. 
 
-The RF model places ![image](https://github.com/mornevwyk/AMP-finder/assets/117268241/482a485d-d433-4dc5-9d8d-0c7fd79af3ff)
+* The RF model places importance on the distributed hydrophobicity, solvent accessibility, polarity, normalized van der Waals valume, secondary structure as well as the charge of the peptide to make its predictions. The model also places a higher importance on the contents of methioninem, cysteine, aspartame and glutamine in the peptide when classifying the antimicrobial activity.
+
+![image](https://github.com/mornevwyk/AMP-finder/assets/117268241/482a485d-d433-4dc5-9d8d-0c7fd79af3ff)
+
+* The GB model places a much higher importance on the distributed hydropobicity of the peptide than any others, followed by solvent accessibility. The model aslo places a smaller importance on the cystein and methionine content of the peptide.
+
+![image](https://github.com/mornevwyk/AMP-finder/assets/117268241/e4f12d5d-5abe-48cd-9d84-e66021077b90)
+
