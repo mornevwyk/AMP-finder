@@ -58,7 +58,7 @@ if file_uploader is not None:
 
     main_container.write(f"Found {count} sequences")
 
-    selected_features = pd.read_csv("Models\DNN_input_features_mask.csv")
+    selected_features = pd.read_csv("./Models/DNN_input_features_mask.csv")
     selected_features = selected_features['mask'].values
 
     seq = sequences
