@@ -1,6 +1,6 @@
 streamlit
 Biopython
-PyBioMed.Pyprotein
+PyBioMed
 joblib
 pandas
 sklearn.feature_selection
