@@ -1,0 +1,7 @@
+streamlit
+io
+Biopython
+PyBioMed.Pyprotein
+joblib
+pandas
+sklearn.feature_selection
