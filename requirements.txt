@@ -3,4 +3,4 @@ Biopython
 PyBioMed
 joblib
 pandas
-sklearn
+scikit-learn
