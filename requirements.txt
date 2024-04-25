@@ -3,4 +3,4 @@ Biopython
 PyBioMed
 joblib
 pandas
-sklearn.feature_selection
+sklearn
